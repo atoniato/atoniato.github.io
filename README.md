@@ -3,8 +3,6 @@
     <style>
       .container {
         text-align: center; /* Centers horizontally */
-        height: 100vh; /* Full height to demonstrate vertical centering */
-        line-height: 100vh; /* Same as height to center vertically */
       }
       
       button {
