@@ -54,19 +54,42 @@
            document.getElementById("date").innerHTML = dd.toLocaleDateString();
            const P1 = [
              "Nelle notti di luna nuova,",
-             "Quando lo ritenete opportuno,"
+             "Quando lo ritenete opportuno,",
+             "A patto che vi sembri una buona idea,",
+             "Senza la minima esitazione,",
+             "Con una certa dose di sfacciataggine,",
+             "Prendendo ad esempio il vostro idolo preferito,",
+             "Contando prima fino a tre,",
+             "Usando tutto il vostro savoir-che,",
+             "Avendo con voi il vostro portafortuna,",
+             "Senza dire ah né bah,",
+             "Con il vostro miglior atteggiamento zen,",
+             "Con uno slancio di generosità,",
+             "Senza pensarci due volte,"
            ];
            const P2 = [
              "dedicatevi a",
              "affrettatevi a",
              "abbiate cura di",
-             "convincete i vostri cari a"
+             "convincete i vostri cari a",
+             "prendete l'iniziativa di",
+             "concedetevi la gioia di",
+             "liberate un'ora di tempo per",
+             "non lasciatevi convincere a",
+             "sappiate rinunciare all'idea di",
+             "entusiasmatevi a",
+             "raccogliete le vostre forze per",
+             "realizzate il sogno di"
            ];
            const P3 = [
              "rimandare ogni faccenda sgradita.",
              "parlare una lingua straniera.",
              "raccogliere le castagne di notte.",
-             "praticare il parkour."
+             "praticare il parkour.",
+             "animare una festa a sorpresa.",
+             "annunciare un'idea geniale.",
+             "scaldare la vostra bevanda preferita.",
+             "giocare a un gioco di quando eravate bambina."
            ];
            let phrase = [P1[getRandomInt(P1.length)], P2[getRandomInt(P2.length)], P3[getRandomInt(P3.length)]].join(" "); 
            document.getElementById("oroscope").innerHTML = phrase;
