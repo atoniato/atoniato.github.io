@@ -38,8 +38,10 @@
   </head>
   <body>
     <h1>Bilancia 2025/2026</h1>
-    <div styles="vertical-align: middle;">
-        <img src="{{site.url}}/images/logoBB.png">
+    <div style="vertical-align: middle;">
+        <div class="container">
+            <img src="{{site.url}}/images/logoBB.png" style="width:50%; height:50%;">
+        </div>
         <p id="oroscope"></p>
         <p id="date"></p>
         <div class="container">
