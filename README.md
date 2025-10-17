@@ -39,12 +39,12 @@
   <body>
     <h1>Bilancia 2025/2026</h1>
     <div style="vertical-align: middle;">
-        <div class="container-lg px-3 my-5 markdown-body">
+        <div class="container-lg px-3 my-5 markdown-body" style="text-align: center;">
             <img src="{{site.url}}/images/logoBB.png" style="width:50%; height:50%;">
         </div>
         <p id="oroscope"></p>
         <p id="date"></p>
-        <div class="container-lg px-3 my-5 markdown-body">
+        <div class="container-lg px-3 my-5 markdown-body" style="text-align: center;">
             <button onclick="Oroscopo()">Genera Oroscopo</button>
         </div>
     </div>
