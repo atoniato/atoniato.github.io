@@ -39,6 +39,7 @@
   <body>
     <h1>Bilancia 2025/2026</h1>
     <div styles="vertical-align: middle;">
+        <img src="logoBB.png">
         <p id="oroscope"></p>
         <p id="date"></p>
         <div class="container">
@@ -69,7 +70,7 @@
              "raccogliere le castagne di notte.",
              "praticare il parkour."
            ];
-           let phrase = [P1[getRandomInt(P1.length)], P2[getRandomInt(P2.length)], P3[getRandomInt(P3.length)]].join(" ") 
+           let phrase = [P1[getRandomInt(P1.length)], P2[getRandomInt(P2.length)], P3[getRandomInt(P3.length)]].join(" "); 
            document.getElementById("oroscope").innerHTML = phrase;
         }
     </script>
