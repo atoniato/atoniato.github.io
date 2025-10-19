@@ -66,9 +66,10 @@
              "Con il vostro miglior atteggiamento zen,",
              "Con uno slancio di generosità,",
              "Senza pensarci due volte,"
+             "Mettendo in atto il vostro charme,",
+             "Senza temere le conseguenze,"
            ];
            const P2 = [
-             "dedicatevi a",
              "affrettatevi a",
              "abbiate cura di",
              "convincete i vostri cari a",
@@ -79,7 +80,8 @@
              "sappiate rinunciare all'idea di",
              "entusiasmatevi a",
              "raccogliete le vostre forze per",
-             "realizzate il sogno di"
+             "realizzate il sogno di",
+             "apprestatevi a"
            ];
            const P3 = [
              "rimandare ogni faccenda sgradita.",
@@ -87,9 +89,21 @@
              "raccogliere le castagne di notte.",
              "praticare il parkour.",
              "animare una festa a sorpresa.",
-             "annunciare un'idea geniale.",
-             "scaldare la vostra bevanda preferita.",
-             "giocare a un gioco di quando eravate bambina."
+             "giocare a un gioco di quando eravate bambina.",
+             "riunire a cena un gruppo di vecchi amici.",
+             "sorprendere tutti con un'azione inattesa.",
+             "partecipare a un concorso di vostra scelta.",
+             "mettervi alla guida di un veicolo sconosciuto.",
+             "assumere un ruolo di guida sul posto di lavoro.",
+             "criticare apertamente ciò che non va.",
+             "costruire una rete di solidarietà con persone insospettate.",
+             "ampliare il vostro background nella cultura pop.",
+             "fare una lezione di prova di un nuovo sport.",
+             "organizzare un concerto domestico.",
+             "condividere con qualcuno le vostre astuzie.",
+             "trasmettere le vostre conoscenze sulla respirazione circolare.",
+             "sfatare alcuni luoghi comuni.",
+             "ergervi a difensore delle idee sottovalutate."
            ];
            let phrase = [P1[getRandomInt(P1.length)], P2[getRandomInt(P2.length)], P3[getRandomInt(P3.length)]].join(" "); 
            document.getElementById("oroscope").innerHTML = phrase;
