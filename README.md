@@ -65,7 +65,7 @@
              "Senza dire ah né bah,",
              "Con il vostro miglior atteggiamento zen,",
              "Con uno slancio di generosità,",
-             "Senza pensarci due volte,"
+             "Senza pensarci due volte,",
              "Mettendo in atto il vostro charme,",
              "Senza temere le conseguenze,"
            ];
