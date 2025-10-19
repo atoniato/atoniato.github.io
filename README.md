@@ -103,7 +103,12 @@
              "condividere con qualcuno le vostre astuzie.",
              "trasmettere le vostre conoscenze sulla respirazione circolare.",
              "sfatare alcuni luoghi comuni.",
-             "ergervi a difensore delle idee sottovalutate."
+             "ergervi a difensore delle idee sottovalutate.",
+             "offrire gratuitamente i vostri consigli.",
+             "confondere le carte in tavola quando necessario.",
+             "recarvi in un istituto termale.",
+             "partecipare a una contestazione cittadina di vostra scelta.",
+             "contraccambiare un gesto gentile."
            ];
            let phrase = [P1[getRandomInt(P1.length)], P2[getRandomInt(P2.length)], P3[getRandomInt(P3.length)]].join(" "); 
            document.getElementById("oroscope").innerHTML = phrase;
